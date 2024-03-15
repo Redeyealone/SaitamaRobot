@@ -19,12 +19,12 @@ class Config(object):
     TOKEN = "7028879876:AAGofE8xkFwF1Whgqw39MQ7a8wXkD-oD94M"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 5483829443  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "sung_jin_woorobot"
-    SUPPORT_CHAT = "OnePunchSupport"  # Your own group for support, do not add the @
+    SUPPORT_CHAT = "sung_jin_woo_Support"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001253661229
+        --1001845320337
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001190806654
+        --1001845320337
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
