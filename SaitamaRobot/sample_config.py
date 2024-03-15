@@ -14,11 +14,11 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Sawada"
+    API_ID = 23182647  # integer value, dont use ""
+    API_HASH = "9fc6192389cf1fdfd10e87bea7de96c5"
+    TOKEN = "7028879876:AAGofE8xkFwF1Whgqw39MQ7a8wXkD-oD94M"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 5483829443  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "sung_jin_woorobot"
     SUPPORT_CHAT = "OnePunchSupport"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001253661229
@@ -39,14 +39,14 @@ class Config(object):
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = get_user_list("elevated_users.json", "sudos")
+    DRAGONS = get_user_list("elevated_users.json", "5483829443")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("elevated_users.json", "devs")
+    DEV_USERS = get_user_list("elevated_users.json", "5483829443")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    DEMONS = get_user_list("elevated_users.json", "supports")
+    DEMONS = get_user_list("elevated_users.json", "5483829443")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    TIGERS = get_user_list("elevated_users.json", "tigers")
-    WOLVES = get_user_list("elevated_users.json", "whitelists")
+    TIGERS = get_user_list("elevated_users.json", "5483829443")
+    WOLVES = get_user_list("elevated_users.json", "5483829443")
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
     PORT = 5000
